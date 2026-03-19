@@ -169,6 +169,23 @@
   </div>
 </section>
 
+<!-- FLEET -->
+<section id="fleet">
+  <div class="section-header">
+    <div class="section-tag">Our Fleet</div>
+    <h2 class="section-title">Every Car, <em>Curated</em></h2>
+    <p class="section-sub">Browse our full lineup — from practical economy cars to head-turning sports rides.</p>
+  </div>
+  <div class="filter-bar">
+    <button class="filter-btn active" onclick="filterCars('all', this)">All Vehicles</button>
+    <button class="filter-btn" onclick="filterCars('economy', this)">Economy</button>
+    <button class="filter-btn" onclick="filterCars('sedan', this)">Sedan</button>
+    <button class="filter-btn" onclick="filterCars('suv', this)">SUV</button>
+    <button class="filter-btn" onclick="filterCars('sports', this)">Sports</button>
+  </div>
+  <div class="fleet-grid" id="fleet-grid"></div>
+</section>
+
 <!-- ALL VEHICLES -->
 <section id="all-vehicles">
   <div class="section-header">
@@ -191,23 +208,6 @@
       <tbody id="all-vehicles-tbody"></tbody>
     </table>
   </div>
-</section>
-
-<!-- FLEET -->
-<section id="fleet">
-  <div class="section-header">
-    <div class="section-tag">Our Fleet</div>
-    <h2 class="section-title">Every Car, <em>Curated</em></h2>
-    <p class="section-sub">Browse our full lineup — from practical economy cars to head-turning sports rides.</p>
-  </div>
-  <div class="filter-bar">
-    <button class="filter-btn active" onclick="filterCars('all', this)">All Vehicles</button>
-    <button class="filter-btn" onclick="filterCars('economy', this)">Economy</button>
-    <button class="filter-btn" onclick="filterCars('sedan', this)">Sedan</button>
-    <button class="filter-btn" onclick="filterCars('suv', this)">SUV</button>
-    <button class="filter-btn" onclick="filterCars('sports', this)">Sports</button>
-  </div>
-  <div class="fleet-grid" id="fleet-grid"></div>
 </section>
 
 <!-- WHY ALP -->
